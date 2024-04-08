@@ -3,4 +3,31 @@ header.header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    
 }
+nav.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+nav.navbar ul {
+    display: flex;
+    list-style: none;
+}
+nav.navbar ul li {
+    margin: 0 10px;
+}
+nav.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
