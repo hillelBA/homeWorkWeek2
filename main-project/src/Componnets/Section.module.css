@@ -1,0 +1,7 @@
+section.section {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+  width: 70vw;
+  min-width: 300px;
+}

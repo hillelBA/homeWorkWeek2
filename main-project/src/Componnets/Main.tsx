@@ -1,13 +1,22 @@
+import GalleryHW from "./GalleryHW";
 import Section from "./Section";
+import styles from "./Main.module.css";
+import ApiHw from "./ApiHw";
 
 function Main() {
   return (
-    <div>
+    <main className={styles.main}>
       <Section>
-        <h1>Main</h1>
+        <h1 className={styles.title}>Main</h1>
         <p>Content</p>
+        <GalleryHW />
       </Section>
-    </div>
+      <Section>
+        <h2>Section 2</h2>
+        <p>Content</p>
+        <ApiHw />
+      </Section>
+    </main>
   );
 }
 export default Main;
