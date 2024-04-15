@@ -7,6 +7,7 @@ import Home from "../pages/Home";
 import Page404 from "../pages/Page404";
 import Shop from "../pages/Shop";
 import Query from "../pages/Query";
+import Games from "../pages/Games";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
         <Route path="/gallery" element={<GalleryHW />} />
         <Route path="/api" element={<ApiHw />} />
         <Route path="/shop/:category" element={<Shop />} />
+        <Route path="/Games/:year" element={<Games />} />
         <Route path="/Query" element={<Query />} />
         <Route path="*" element={<Page404 />} />
       </Routes>

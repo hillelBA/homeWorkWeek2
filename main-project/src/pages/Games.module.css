@@ -1,0 +1,50 @@
+.games {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 70vw;
+}
+
+.games li {
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* .games li h2 {
+    color: transparent;
+    background-image: linear-gradient(to right, hsl(238, 85%, 60%), hsl(238, 85%, 30%));
+    -webkit-background-clip: text;
+    background-clip: text;
+} */
+
+.games li h2 a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.games li h2 a:hover {
+
+    background-image: linear-gradient(to right, hsl(161, 85%, 60%), hsl(161, 85%, 30%));
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+
+}
+
+.games li .link {
+    text-decoration: none;
+    color: #333;
+    /* display: block; */
+    padding: 0.2rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, hsl(161, 85%, 60%), hsl(161, 85%, 30%));
+}
+
+.games li .link:hover {
+    color: black;
+    background-image: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 59%));
+}
